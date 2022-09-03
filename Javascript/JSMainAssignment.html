@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <title>JS Assignment</title>
+            <link rel="stylesheet" type="text/css" href="CSS/jsAssignment.css"/>
+            
+        </head>
+        <body>
+                <audio id="Rock"  >
+                    <source src="sounds/Voice 001.m4a">
+                </audio>
+                <audio id="Scissors" >
+                    <source src="sounds/Scissors.m4a">
+                </audio>
+                <audio id="paper">
+                    <source src="sounds/Paper.m4a">
+                </audio>
+                <h1>Welcome to your own game of Rock, Paper, Scissors</h1>
+                <h2 id="result">Make your choice:</h2>
+                <div id="gameContainer">
+                    <span>Player: </span><span id="playerScore"></span><br>
+                    <span>PC: </span><span id="pcScore"></span>
+                    <ul>
+                        <li><button class="btn" id="btnRock" value="0">Rock</button></li>
+                        <li><button class="btn" id="btnPaper" value="1">Paper</button></li>
+                        <li><button class="btn" id="btnScissors" value="2">Scissors</button></li>
+                    </ul>
+                    <img id="playerChoice" />
+                    <img id="computerChoice"/>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+            <script src="JS/script.js" type="text/javascript" >
+              
+
+            </script>
+
+        </body>
+    </html>
